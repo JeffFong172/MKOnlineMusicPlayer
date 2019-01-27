@@ -253,7 +253,7 @@ $(function() {
         } else {
             // 背景图片初始化
             $('#blur-img').backgroundBlur({
-                // imageURL : '', // URL to the image that will be used for blurring
+                imageURL: '../images/test.jpg', // URL to the image that will be used for blurring
                 blurAmount: 50, // 模糊度
                 imageClass: 'blured-img', // 背景区应用样式
                 overlayClass: 'blur-mask', // 覆盖背景区class，可用于遮罩或额外的效果
